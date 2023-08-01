@@ -7,7 +7,7 @@ import (
 	"net/http"
 )
 
-func Example() {
+func ExampleQRCode() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		// 实例QRCode
 		qr := qrcode.NewQRCode("https://github.com/Is999")
