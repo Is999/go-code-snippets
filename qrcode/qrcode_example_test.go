@@ -25,13 +25,13 @@ func ExampleQRCode() {
 		}
 
 		// 给二维码填充色彩
-		err = qr.FillColor("./color.png", 0, true)
+		err = qr.FillColor("../images/color.png", 0, true)
 		if err != nil {
 			fmt.Println("给二维码填充色彩失败：", err.Error())
 		}
 
 		// 创建带logo的二维码
-		err = qr.CreateAvatar("./logo.png", 20, 20, false)
+		err = qr.CreateAvatar("../images/logo.png", 20, 20, false)
 		if err != nil {
 			fmt.Println("创建带logo的二维码失败：", err.Error())
 		}
@@ -45,7 +45,7 @@ func ExampleQRCode() {
 		// 二维码与海报合成
 		qr.SetHorizontal(11). // 设置偏移位置
 					SetOffsetX(129) // 设置图片X轴方向偏移量
-		err = qr.CreateAvatar("./new-year-poster.png", 338, 521, true)
+		err = qr.CreateAvatar("../images/new-year-poster.png", 338, 521, true)
 		if err != nil {
 			fmt.Println("二维码与海报合成失败：", err.Error())
 		}
