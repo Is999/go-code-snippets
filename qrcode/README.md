@@ -19,6 +19,7 @@
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/Is999/go-code-snippets/main/images/qrcode-default.png" alt="二维码">
+<img src="https://raw.githubusercontent.com/Is999/go-code-snippets/main/images/qrcode-border.png" alt="二维码">
 <img src="https://raw.githubusercontent.com/Is999/go-code-snippets/main/images/qrcode-color.png" alt="彩色二维码">
 <img src="https://raw.githubusercontent.com/Is999/go-code-snippets/main/images/qrcode-logo.png" alt="logo二维码">
 <img src="https://raw.githubusercontent.com/Is999/go-code-snippets/main/images/qrcode-haibao.png" alt="海报二维码">
