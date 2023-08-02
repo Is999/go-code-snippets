@@ -1,4 +1,4 @@
-module go-code-snippets
+module github.com/Is999/go-code-snippets
 
 go 1.20
 

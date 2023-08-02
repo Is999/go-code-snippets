@@ -2,7 +2,7 @@ package qrcode_test
 
 import (
 	"fmt"
-	"go-code-snippets/qrcode"
+	"github.com/Is999/go-code-snippets/qrcode"
 	"image/color"
 	"net/http"
 )
