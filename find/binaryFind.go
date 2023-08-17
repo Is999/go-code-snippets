@@ -1,9 +1,9 @@
 package find
 
-// Binary 二分查找
+// Binary 二分查找, 返回检索到的下标，未检索到返回-1
 //
 //	s 检索值
-//	arr 检索的 slice，必须是有序的
+//	arr 检索的 slice，必须是有序的（升序或降序的）
 func Binary[T Number](s T, arr []T) int {
 	m := 0            // 中间下标
 	l := 0            // 左移动下标
